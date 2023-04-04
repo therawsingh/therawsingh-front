@@ -1,31 +1,28 @@
-import React from "react";
-import Typed from "react-typed";
+import React from 'react'
+import Selfie from '../assets/Selfie.jpg'
 
 const Me = () => {
   return (
-    <div className="text-white">
-      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <p className="text-[#c31f42] font-bold p-2 md:text-3xl sm:text-2xl text-xl">
-          Welcome to therawsingh.
-        </p>
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
-          I am Roshan Singh
-        </h1>
-        <div className="flex justify-center items-center">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
-            I am a
+    <div className="w-full bg-white py-16 px-4">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+        <img src={Selfie} alt="Me" className="w-[400px] my-15 rounded-full shadow-xl md:mx-0 sm:mx-0 mx-auto inline-block align-middle"></img>
+        <div className="flex flex-col justify-center">
+          <h1 className="text-[#c31f42] font-bold md:text-4xl sm:text-3xl text-2xl py-6 md:text-left text-center sm:px-4 px-2">
+            About Me
+          </h1>
+                  <p className='sm:text-left text-center sm:px-4 md:text-2xl sm:text-xl text-xl font-medium'> 
+            Tech enthusiast, whose primary goal is to gain knowledge. Coding
+            being my second love (after Gaming), is a field in which I want to
+            excel. Learning new languages, frameworks is what I like to do in my
+            past time. I wish to, someday, develop something that will be
+            recognized worldwide. I prefer being self-taught over learning from
+            classes. Challenges intrigue me more than my coffee (neither being
+            expendable for me).
           </p>
-          <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#c31f42]"
-            strings={["Developer", "Gamer", "Photographer", "Writer"]}
-            typeSpeed={120}
-            backSpeed={140}
-            loop
-          />
         </div>
       </div>
     </div>
   );
-};
+}
 
-export default Me;
+export default Me

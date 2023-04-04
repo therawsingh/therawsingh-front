@@ -1,0 +1,35 @@
+<h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 sm:px-4 px-2">
+            Capgemini (Jan '22 - Jul '22)
+          </h1>
+          <h2 className="md:text-3xl sm:text-2xl text-xl font-bold py-2 sm:px-4 px-2">
+            Quality Assurance Tester
+          </h2>
+          <ul className="px-6 py-2 list-disc text-lg md:px-8">
+            <li className="">
+              Worked on a Project following Agile Methodologies
+            </li>
+            <li className="">
+              Worked on a Project following Agile Methodologies
+            </li>
+            <li className="">
+              Worked on a Project following Agile Methodologies
+            </li>
+            <li className="">
+              Giving daily status reports in Scrum based environments
+            </li>
+            <li className="">
+              Giving daily status reports in Scrum based environments
+            </li>
+            <li className="">
+              Giving daily status reports in Scrum based environments
+            </li>
+            <li className="">
+              Giving daily status reports in Scrum based environments
+            </li>
+            <li className="">
+              Giving daily status reports in Scrum based environments
+            </li>
+            <li className="">
+              Giving daily status reports in Scrum based environments
+            </li>
+          </ul>
