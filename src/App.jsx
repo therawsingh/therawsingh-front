@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import Me from "./components/Me";
-import Website from "./components/Website";
+import Experience from "./components/Experience";
+import { ExperienceTwo } from "./components/ExperienceTwo";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Navbar />
       <Landing />
       <Me />
-      <Website/>
+      <Experience />
+      <ExperienceTwo/>
     </div>
   );
 }

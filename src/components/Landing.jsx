@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 const Landing = () =>
 {
@@ -28,9 +29,12 @@ const Landing = () =>
             loop
           />
         </div>
-        <button className="bg-[#c31f42] w-[200px] rounded my-6 mx-auto py-3 text-[#0c0c0c] font-bold">
-          About Me
-        </button>
+
+        <Link to="aboutMe" smooth={true} duration={500}>
+          <button className="bg-[#c31f42] w-[200px] rounded my-6 mx-auto py-3 text-[#0c0c0c] font-bold">
+            About Me
+          </button>
+        </Link>
       </div>
     </div>
   );
