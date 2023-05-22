@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
-    "webdriver-update": "webdriver-manager update",
+    "serve": "serve -s build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "dev": "vite"
   },
   "dependencies": {
