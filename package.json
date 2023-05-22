@@ -4,9 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "webpack --mode production",
-    "preview": "vite preview"
+    "build": "react-scripts build"
   },
   "dependencies": {
     "react": "^18.2.0",
