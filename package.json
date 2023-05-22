@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
+    "webdriver-update": "webdriver-manager update"
   },
   "dependencies": {
     "react": "^18.2.0",
