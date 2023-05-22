@@ -14,7 +14,6 @@ function App() {
       <Me />
       <Experience />
       <ExperienceTwo />
-      <Footer/>
     </div>
   );
 }

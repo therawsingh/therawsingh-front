@@ -6,7 +6,8 @@
   "scripts": {
     "build": "react-scripts build",
     "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
-    "webdriver-update": "webdriver-manager update"
+    "webdriver-update": "webdriver-manager update",
+    "dev": "vite"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -21,7 +22,7 @@
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.1",
+    "tailwindcss": "^3.3.2",
     "vite": "^4.2.0"
   }
 }

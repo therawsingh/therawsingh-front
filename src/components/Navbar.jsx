@@ -16,8 +16,6 @@ const Navbar = () => {
         : "fixed left-[-100%]";
     }
   };
-  //sticky top-0          --- for sticky top navbar
-  //max-w-[-96px] w-full  --- for end to end navbar
   return (
     <div className="flex justify-between items-center h-24 max-w-[1024px] w-full mx-auto px-4 text-white bg-[#0c0c0c]">
       <h1 className="w-full text-3xl font-bold text-[#c31f42]">therawsingh</h1>
