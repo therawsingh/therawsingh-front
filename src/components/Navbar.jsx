@@ -9,16 +9,17 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  const navVisibility = () =>
-  {
-    {nav
-      ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#0c0c0c] ease-in-out duration-500"
-      : "fixed left-[-100%]";
+  const navVisibility = () => {
+    {
+      nav
+        ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#0c0c0c] ease-in-out duration-500"
+        : "fixed left-[-100%]";
     }
-  }
-
+  };
+  //sticky top-0          --- for sticky top navbar
+  //max-w-[-96px] w-full  --- for end to end navbar
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+    <div className="flex justify-between items-center h-24 max-w-[1024px] w-full mx-auto px-4 text-white bg-[#0c0c0c]">
       <h1 className="w-full text-3xl font-bold text-[#c31f42]">therawsingh</h1>
       <ul className="hidden md:flex py-10 my-4">
         <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c31f42]">

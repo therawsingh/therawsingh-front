@@ -4,6 +4,7 @@ import Landing from "./components/Landing";
 import Me from "./components/Me";
 import Experience from "./components/Experience";
 import { ExperienceTwo } from "./components/ExperienceTwo";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Landing />
       <Me />
       <Experience />
-      <ExperienceTwo/>
+      <ExperienceTwo />
+      <Footer/>
     </div>
   );
 }
