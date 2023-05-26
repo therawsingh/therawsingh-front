@@ -17,7 +17,7 @@ const Me = () => {
             <h1 className="text-[#c31f42] font-bold md:text-4xl sm:text-3xl text-2xl py-6 md:text-left text-center sm:px-4 px-2">
               About Me
             </h1>
-            <p className="sm:text-left text-center sm:px-4 md:text-2xl sm:text-xl text-xl font-medium">
+            <p className="text-justify sm:px-4 md:text-2xl sm:text-xl text-xl font-medium">
               Tech enthusiast, whose primary goal is to gain knowledge. Coding
               being my second love (after Gaming), is a field in which I want to
               excel. Learning new languages, frameworks is what I like to do in

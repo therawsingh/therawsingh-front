@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export const ExperienceTwo = () => {
   return (
@@ -8,7 +8,7 @@ export const ExperienceTwo = () => {
           <h2 className="md:text-3xl sm:text-2xl text-xl font-bold sm:px-8 px-6 text-center sm:text-right">
             Infosys (Jan '22 - Jul '22)
           </h2>
-          <ul className="py-6 list-disc px-12 sm:text-lg md:text-xl">
+          <ul className="py-6 list-disc px-12 sm:text-lg md:text-xl text-justify">
             <li className="py-2">
               At Infosys I worked on three different projects, all of them being
               Agile-based. I had the role of an Automation Tester in all three.
@@ -72,4 +72,6 @@ export const ExperienceTwo = () => {
       </div>
     </div>
   );
-}
+};
+
+export default ExperienceTwo;

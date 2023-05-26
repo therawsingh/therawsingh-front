@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
+import { Link as Links  } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
     }
   };
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1024px] w-full mx-auto px-4 text-white bg-[#0c0c0c]">
+    <div className="flex justify-between items-center h-24 max-w-[1240px] w-full mx-auto px-4 text-white bg-[#0c0c0c]">
       <h1 className="w-full text-3xl font-bold text-[#c31f42]">therawsingh</h1>
       <ul className="hidden md:flex py-10 my-4">
         <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c31f42]">
@@ -31,9 +32,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c31f42]">
-          <Link to="aboutMe" smooth={true} duration={500}>
+          <Links to="/skills" smooth={true} duration={500}>
             Skills
-          </Link>
+          </Links>
         </li>
         <li className="p-4 border-t-2 border-transparent transition duration-300 hover:border-t-2 hover:cursor-pointer hover:border-t-[#c31f42]">
           Website
@@ -84,7 +85,7 @@ const Navbar = () => {
           <li className="p-4">
             <Link
               className="py-4 border-b hover:border-[#c31f42] hover:cursor-pointer transition duration-300"
-              to="aboutMe"
+              to="/skills"
               smooth={true}
               duration={500}
               onClick={handleNav}

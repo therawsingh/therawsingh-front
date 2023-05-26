@@ -1,19 +1,21 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Landing from "./components/Landing";
-import Me from "./components/Me";
-import Experience from "./components/Experience";
-import { ExperienceTwo } from "./components/ExperienceTwo";
 import Footer from "./components/Footer";
+import Skills from "./components/Skills";
+import First from "./pages/First";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Landing />
-      <Me />
-      <Experience />
-      <ExperienceTwo />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<First />}></Route>
+          <Route path="/skills" element={<Skills />}></Route>
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
