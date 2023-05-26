@@ -32,11 +32,11 @@ const Navbar = () => {
         </li>
         <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c31f42]">
           <Link to="aboutMe" smooth={true} duration={500}>
-            Website
+            Skills
           </Link>
         </li>
         <li className="p-4 border-t-2 border-transparent transition duration-300 hover:border-t-2 hover:cursor-pointer hover:border-t-[#c31f42]">
-          Blog
+          Website
         </li>
         <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c31f42]">
           Tools
@@ -89,11 +89,11 @@ const Navbar = () => {
               duration={500}
               onClick={handleNav}
             >
-              Website
+              Skills
             </Link>
           </li>
           <li className="p-4 border-b hover:border-[#c31f42] hover:cursor-pointer transition duration-300">
-            Blog
+            Website
           </li>
           <li className="p-4 border-b hover:border-[#c31f42] hover:cursor-pointer transition duration-300">
             Tools
