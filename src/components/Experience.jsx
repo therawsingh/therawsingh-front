@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <div>
       <Element name="experience"></Element>
-      <div className="text-white">
+      <div className="text-white" id="experience">
         <div className="max-w-[1240px] mx-auto md:grid sm:grid grid">
           <div>
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-4 sm:py-6 md:py-10 sm:px-8 px-6 text-[#c31f42] text-center sm:text-left">

@@ -2,15 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
 
-const Landing = () =>
-{
-  
-  const scrollToElement = () =>
-  {
-    const element = document.getElementById("target");
-    element.scrollIntoView({ behavior: "smooth" });
-  }
-
+const Landing = () => {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">

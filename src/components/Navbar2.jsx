@@ -3,7 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link as LinkS } from "react-scroll";
 import { Link as LinkR } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar2 = () => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -24,24 +24,7 @@ const Navbar = () => {
       </h1>
       <ul className="hidden md:flex py-10 my-4">
         <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c31f42]">
-          <LinkS to="aboutMe" smooth={true} duration={500}>
-            Me
-          </LinkS>
-        </li>
-        <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c31f42]">
-          <LinkS to="skills" smooth={true} duration={500}>
-            Skills
-          </LinkS>
-        </li>
-        <li className="p-4 border-t-2 border-transparent transition duration-300 hover:border-t-2 hover:cursor-pointer hover:border-t-[#c31f42]">
-          <LinkS to="website" smooth={true} duration={500}>
-            Website
-          </LinkS>
-        </li>
-        <li className="p-4 border-t-2 border-transparent transition duration-300 hover:border-t-2 hover:cursor-pointer hover:border-t-[#c31f42]">
-          <LinkS to="experience" smooth={true} duration={500}>
-            Experience
-          </LinkS>
+          <LinkR to="/">Home</LinkR>
         </li>
         <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c31f42]">
           <LinkR to="/tools">Tools</LinkR>
@@ -65,53 +48,17 @@ const Navbar = () => {
         </div>
         <ul className="p-4">
           <li className="p-4">
-            <LinkS
+            <LinkR
               className="py-4 border-b hover:border-[#c31f42] hover:cursor-pointer transition duration-300"
-              to="aboutMe"
-              smooth={true}
-              duration={500}
-              onClick={handleNav}
+              to="/"
             >
-              Me
-            </LinkS>
-          </li>
-          <li className="p-4">
-            <LinkS
-              className="py-4 border-b hover:border-[#c31f42] hover:cursor-pointer transition duration-300"
-              to="skills"
-              smooth={true}
-              duration={500}
-              onClick={handleNav}
-            >
-              Skills
-            </LinkS>
-          </li>
-          <li className="p-4">
-            <LinkS
-              className="py-4 border-b hover:border-[#c31f42] hover:cursor-pointer transition duration-300"
-              to="website"
-              smooth={true}
-              duration={500}
-              onClick={handleNav}
-            >
-              Website
-            </LinkS>
-          </li>
-          <li className="p-4">
-            <LinkS
-              className="py-4 border-b hover:border-[#c31f42] hover:cursor-pointer transition duration-300"
-              to="experience"
-              smooth={true}
-              duration={500}
-              onClick={handleNav}
-            >
-              Experience
-            </LinkS>
+              Home
+            </LinkR>
           </li>
           <li className="p-4">
             <LinkR
-              to="/tools"
               className="py-4 border-b hover:border-[#c31f42] hover:cursor-pointer transition duration-300"
+              to="/tools"
             >
               Tools
             </LinkR>
@@ -122,4 +69,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;
