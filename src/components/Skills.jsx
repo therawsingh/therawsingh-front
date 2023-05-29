@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
+import SkillsBar from "./SkillsBar";
 
 const Skills = () => {
   return (
@@ -12,13 +13,15 @@ const Skills = () => {
               Skills
             </h1>
             <h2 className="md:text-3xl sm:text-2xl text-xl font-bold sm:px-8 px-6 text-center sm:text-left">
-              Backend :
+              <div>
+                <SkillsBar />
+              </div>
             </h2>
-            <ul className="py-6 list-disc px-12 sm:text-lg md:text-xl text-justify">
-              <li className="py-2">
-                these are my skills
-              </li>
-            </ul>
+            <div>
+              <br />
+              <br />
+              <br />
+            </div>
           </div>
         </div>
       </div>

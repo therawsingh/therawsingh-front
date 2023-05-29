@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+.skill-box .title {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+  color: white;
+}
+
+.skill-box .skill-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.skill-box .skill-per {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 95%;
+  border-radius: 6px;
+  background: #c31f42;
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
+}
+
+.skill-per.java {
+  width: 80%;
+  animation-delay: 0.1s;
+}
+
+.skill-per.spring {
+  width: 60%;
+  animation-delay: 0.2s;
+}
+.skill-per.sql {
+  width: 70%;
+  animation-delay: 0.3s;
+}
+.skill-per.hibernate {
+  width: 60%;
+  animation-delay: 0.3s;
+}
+.skill-per.html {
+  width: 60%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.reactjs {
+  width: 40%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.tailwind {
+  width: 40%;
+  animation-delay: 0.3s;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.skill-per .tooltip {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px;
+}
