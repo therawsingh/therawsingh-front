@@ -8,7 +8,7 @@ const Experience = () => {
       <div className="text-white" id="experience">
         <div className="max-w-[1240px] mx-auto md:grid sm:grid grid">
           <div>
-            <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-4 sm:py-6 md:py-10 sm:px-8 px-6 text-[#c31f42] text-center sm:text-left">
+            <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-4 sm:py-6 md:py-10 sm:px-8 px-6 text-[#f26860] text-center sm:text-left">
               Experience
             </h1>
             <h2 className="md:text-3xl sm:text-2xl text-xl font-bold sm:px-8 px-6 text-center sm:text-left">
@@ -34,38 +34,6 @@ const Experience = () => {
                 changed requirement of the application, debugging where the old
                 automation code (written by someone else) bugs out, and making
                 changes to the automation code accordingly.
-              </li>
-              <li className="py-2">
-                Consuming responses from API endpoints in our code and
-                automating different flows of the application.
-              </li>
-              <li className="py-2">
-                Hitting different Rest and SOAP API endpoints, and analyzing the
-                Response, thus carrying out API testing.
-              </li>
-              <li className="py-2">
-                Giving regular demos of the developed automation code and the
-                testing carried out, to the client and team. Understanding their
-                reviews and comments on the code and implementing the changes if
-                necessary.
-              </li>
-              <li className="py-2">
-                Working with and creating XML whenever the need arises during
-                the development of the automation code.
-              </li>
-              <li className="py-2">
-                Was a part of the Major Testing schedule where I tested around
-                1000 test cases in a strict time frame.
-              </li>
-              <li className="py-2">
-                Tracking stories and bugs in Azure board.
-              </li>
-              <li className="py-2">
-                Using AQT to fire SQL queries and fetch data from different
-                databases used for testing.
-              </li>
-              <li className="py-2">
-                Conducting Knowledge Transfer sessions for new comers.
               </li>
             </ul>
           </div>

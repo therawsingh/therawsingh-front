@@ -14,7 +14,7 @@ const Me = () => {
             className="w-[400px] my-15 rounded-full shadow-xl md:mx-0 sm:mx-0 mx-auto inline-block align-middle"
           ></img>
           <div className="flex flex-col justify-center">
-            <h1 className="text-[#c31f42] font-bold md:text-4xl sm:text-3xl text-2xl py-6 md:text-left text-center sm:px-4 px-2">
+            <h1 className="text-[#f26860] font-bold md:text-4xl sm:text-3xl text-2xl py-6 md:text-left text-center sm:px-4 px-2">
               About Me
             </h1>
             <p className="text-justify sm:px-4 md:text-2xl sm:text-xl text-xl font-medium">

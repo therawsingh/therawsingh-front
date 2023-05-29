@@ -13,16 +13,15 @@ const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#c31f42] text-center md:text-left">
+        <h1 className="w-full text-3xl font-bold text-[#f26860] text-center md:text-left md:ml-2">
           Roshan Singh
         </h1>
-        <p className="text-center md:text-left mt-3">
-          +91 9820223936 <br />
-          +91 8369557092 <br />
-          singh.roshan501105@gmail.com
+        <p className="text-center md:text-left mt-3 text-xl md:ml-2">
+          📞 +91 9820223936 <br />
+          📞 +91 8369557092 <br />✉ singh.roshan501105@gmail.com
         </p>
       </div>
-      <div className="flex justify-between md:w-[75%] my-6 mx-20 md:mx-2">
+      <div className="flex justify-between lg:w-[180%] md:w-[90%] sm:w-[75%] my-6 mx-20 md:ml-2 lg:ml-12">
         <a
           href="https://www.linkedin.com/in/roshan-singh-b71587163/"
           target="_blank"

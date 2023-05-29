@@ -13,6 +13,7 @@
   width: 100%;
   border-radius: 6px;
   margin-top: 6px;
+  margin-bottom: 6px;
   background: rgba(0, 0, 0, 0.1);
 }
 
@@ -22,7 +23,7 @@
   height: 100%;
   width: 95%;
   border-radius: 6px;
-  background: #c31f42;
+  background: #f26860;
   animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
 }
@@ -60,20 +61,14 @@
 }
 
 @keyframes progress {
-  0% {
-    width: 0;
-    opacity: 1;
-  }
-
   100% {
     opacity: 1;
   }
 }
 
-.skill-per .tooltip {
-  position: relative;
+.tooltip {
+  position: inherit;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 300;
   color: #fff;
-  margin-top: 10px;
 }

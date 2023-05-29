@@ -24,11 +24,6 @@ export const ExperienceTwo = () => {
               members. And implementing any suggested changes.
             </li>
             <li className="py-2">
-              Creating an apt document to explain the developed automation code
-              and the ways to use it. This document got used during Knowledge
-              Transfer sessions.
-            </li>
-            <li className="py-2">
               Co-Developed a framework for an application for one of the
               projects, along with my teammates. Opted for a Hybrid framework
               (Data-driven as well as Keyword-driven). Automated the core
@@ -46,26 +41,6 @@ export const ExperienceTwo = () => {
               and Selenium for automation. It fetched data from Excel sheets and
               automated the process of raising access for a user from various
               portals.
-            </li>
-            <li className="py-2">
-              Fetch Data from the database (as a part of database validation) by
-              firing SQL queries in Rumba Mainframe and IBM Data Studio
-            </li>
-            <li className="py-2">
-              Creating and firing complex SQL queries as and when required for
-              testing.
-            </li>
-            <li className="py-2">
-              Logging and tracking defects in the project management tool Rally.
-            </li>
-            <li className="py-2">
-              Using Splunk to check logs as a part of testing.
-            </li>
-            <li className="py-2">
-              Carrying out API testing in SOAP UI and POSTMAN.
-            </li>
-            <li className="py-2">
-              Conducting Knowledge Transfer sessions for new comers.
             </li>
           </ul>
         </div>
