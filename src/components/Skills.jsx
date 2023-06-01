@@ -1,26 +1,33 @@
 import React from "react";
 import { Element } from "react-scroll";
-import SkillsBar from "./SkillsBar";
+import Typed from "react-typed";
 
 const Skills = () => {
   return (
     <div>
       <Element name="skills"></Element>
-      <div className="text-white font-josefin container">
-        <div className="max-w-[1920px] w-9/12 h-screen mx-auto text-left flex flex-col justify-center pl-8">
-          <div>
-            <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold pt-6 sm:px-8 px-6 text-[#c40233] text-center sm:text-left">
-              Skills
-            </h1>
-            <div className="md:text-3xl sm:text-2xl text-xl font-bold sm:px-8 px-6 text-center sm:text-left">
-              <div>
-                <SkillsBar />
-              </div>
-            </div>
-            <div>
-              <br />
-              <br />
-              <br />
+      <div className="w-full py-6 font-josefin">
+        <div className="max-w-[1920px] w-9/12 h-screen mx-auto text-left pr-10 flex items-center">
+          <div className="grid">
+            <div className="flex flex-col justify-start pl-6">
+              <h6 className="text-[#c40233] pb-4">What I Do</h6>
+              <p className="text-white font-bold md:text-3xl sm:text-2xl text-2xl pb-10">
+                I am a self-tought developer. With primary focus being on
+                backed. <br/>But I also extend my knowledge in fornt end department.
+              </p>
+
+              <p className="text-white font-bold md:text-3xl sm:text-2xl text-2xl pb-10">
+                Having industrial experience as an automation tester, I also
+                have hand-on experiene in testing.
+              </p>
+              <Typed
+                className="text-white font-bold md:text-3xl sm:text-2xl text-2xl"
+                strings={["A complete package to hire ;)"]}
+                typeSpeed={120}
+                backSpeed={ 200 }
+                loop
+              />
+
             </div>
           </div>
         </div>
