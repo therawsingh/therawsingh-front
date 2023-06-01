@@ -11,51 +11,57 @@ import {
 
 const Footer = () => {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white">
-      <div>
-        <h1 className="w-full text-3xl font-bold text-[#f26860] text-center md:text-left md:ml-2">
-          Roshan Singh
-        </h1>
-        <p className="text-center md:text-left mt-3 text-xl md:ml-2">
-          📞 +91 9820223936 <br />
-          📞 +91 8369557092 <br />✉ singh.roshan501105@gmail.com
-        </p>
-      </div>
-      <div className="flex justify-between lg:w-[180%] md:w-[90%] sm:w-[75%] my-6 mx-20 md:ml-2 lg:ml-12">
+    <div className="flex justify-start p-8 text-white font-josefin sticky bottom-0">
+      <div className="">
         <a
           href="https://www.linkedin.com/in/roshan-singh-b71587163/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin size={30} />
+          <FaLinkedin
+            size={30}
+            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+          />
         </a>
         <a
           href="https://github.com/therawsingh"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithubSquare size={30} />
+          <FaGithubSquare
+            size={30}
+            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+          />
         </a>
         <a
           href="https://www.facebook.com/singh.roshan501105"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFacebookSquare size={30} />
+          <FaFacebookSquare
+            size={30}
+            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+          />
         </a>
         <a
           href="https://www.instagram.com/therawsingh/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagramSquare size={30} />
+          <FaInstagramSquare
+            size={30}
+            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+          />
         </a>
         <a
           href="https://twitter.com/therawsingh"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTwitter size={30} />
+          <FaTwitter
+            size={30}
+            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+          />
         </a>
       </div>
     </div>

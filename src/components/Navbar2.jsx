@@ -13,20 +13,20 @@ const Navbar2 = () => {
   const navVisibility = () => {
     {
       nav
-        ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#0c0c0c] ease-in-out duration-500"
+        ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#0c0c0c] ease-in-out duration-500 z-50"
         : "fixed left-[-100%]";
     }
   };
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] w-full mx-auto px-4 text-white bg-[#0c0c0c]">
-      <h1 className="w-full text-3xl font-bold text-[#f26860]">
+      <h1 className="w-full text-3xl font-bold text-[#c40233]">
         <LinkR to="/">therawsingh</LinkR>
       </h1>
       <ul className="hidden md:flex py-10 my-4">
-        <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#f26860]">
+        <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c40233]">
           <LinkR to="/">Home</LinkR>
         </li>
-        <li className="p-4 border border-transparent transition duration-300 hover:border-t-2 hover:cursor-pointer hover:border-t-[#f26860]">
+        <li className="p-4 border border-transparent transition duration-300 hover:border-t-2 hover:cursor-pointer hover:border-t-[#c40233]">
           <LinkR to="/tools">Tools</LinkR>
         </li>
       </ul>
@@ -42,14 +42,14 @@ const Navbar2 = () => {
         }
       >
         <div className="grid-flow-col columns-2">
-          <h1 className="w-full text-3xl font-bold text-[#f26860] my-7 mx-4">
+          <h1 className="w-full text-3xl font-bold text-[#c40233] my-7 mx-4">
             therawsingh
           </h1>
         </div>
         <ul className="p-4">
           <li className="p-4">
             <LinkR
-              className="py-4 border-b hover:border-[#f26860] hover:cursor-pointer transition duration-300"
+              className="py-4 border-b hover:border-[#c40233] hover:cursor-pointer transition duration-300"
               to="/"
             >
               Home
@@ -57,7 +57,7 @@ const Navbar2 = () => {
           </li>
           <li className="p-4">
             <LinkR
-              className="py-4 border-b hover:border-[#f26860] hover:cursor-pointer transition duration-300"
+              className="py-4 border-b hover:border-[#c40233] hover:cursor-pointer transition duration-300"
               to="/tools"
             >
               Tools

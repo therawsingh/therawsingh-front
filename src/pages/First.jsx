@@ -11,14 +11,13 @@ import Footer from "../components/Footer";
 const First = () => {
   return (
     <div>
-      <Navbar />
-      <Landing />
-      <Me />
-      <Skills />
-      <Website />
-      <Experience />
-      <ExperienceTwo />
-      <Footer />
+          <Navbar />
+          <Landing />
+          <Me />
+          <Skills />
+          <Website />
+          <Experience />
+          <Footer />
     </div>
   );
 };

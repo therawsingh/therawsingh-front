@@ -1,32 +1,47 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const Landing = () => {
+const Landing = () =>
+{
+  
+    useEffect(() => {
+      AOS.init({ duration: 2000 });
+    }, []);
+
+
   return (
-    <div className="text-white">
-      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <p className="text-[#f26860] font-bold p-4 md:text-3xl sm:text-2xl text-xl">
-          Welcome to therawsingh.
+    <div className="text-white font-josefin container">
+      <div className="max-w-[1920px] sm:mt-[-345px] mt-[-290px] w-9/12 h-screen mx-auto text-left flex flex-col justify-center pl-8">
+        <p
+          className="text-[#c40233] font-bold md:text-5xl sm:text-3xl text-3xl pb-4"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          Hello,
         </p>
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
-          I am Roshan Singh
+        <h1
+          className="lg:text-7xl md:text-6xl sm:text-4xl text-3xl font-bold pt-6 pb-10"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          I am Roshan Singh.
         </h1>
-        <div className="flex justify-center items-center">
+        <div
+          className="justify-center items-start"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#f26860] py-8"
+            className="md:text-5xl sm:text-3xl text-3xl font-bold text-[#c40233]"
             strings={["Developer", "Gamer", "Photographer", "Writer"]}
             typeSpeed={120}
             backSpeed={140}
             loop
           />
         </div>
-
-        <Link to="aboutMe" smooth={true} duration={500}>
-          <button className="bg-[#f26860] w-[200px] rounded my-6 mx-auto py-3 text-[#0c0c0c] font-bold">
-            About Me
-          </button>
-        </Link>
       </div>
     </div>
   );

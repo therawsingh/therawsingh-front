@@ -1,11 +1,12 @@
 import React from "react";
 import Typed from "react-typed";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
+import "../style/otherstyles.css";
 
 const Tools = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
-      <div className="max-w-[1240px] mx-auto md:grid sm:grid grid">
+      <div className="max-w-[1240px] mx-auto md:grid sm:grid grid z-0">
         <p className="text-[#f26860] font-bold p-4 md:text-3xl sm:text-2xl text-xl text-center">
           Welcome to the tools page.
         </p>
@@ -14,7 +15,8 @@ const Tools = () => {
           autoplay
           loop
           src="https://assets1.lottiefiles.com/private_files/lf30_y9czxcb9.json"
-          style={{ height: "300px", width: "300px" }}
+          style={ { height: "300px", width: "300px" } }
+          className="player-component"
         ></Player>
 
         <div className="flex justify-center items-center">
