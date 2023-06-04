@@ -1,7 +1,5 @@
 import React from "react";
 import Typed from "react-typed";
-import { Player, Controls } from "@lottiefiles/react-lottie-player";
-import "../style/otherstyles.css";
 
 const Tools = () => {
   return (
@@ -10,15 +8,6 @@ const Tools = () => {
         <p className="text-[#f26860] font-bold p-4 md:text-3xl sm:text-2xl text-xl text-center">
           Welcome to the tools page.
         </p>
-
-        <Player
-          autoplay
-          loop
-          src="https://assets1.lottiefiles.com/private_files/lf30_y9czxcb9.json"
-          style={ { height: "300px", width: "300px" } }
-          className="player-component"
-        ></Player>
-
         <div className="flex justify-center items-center">
           <Typed
             className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#f26860] py-8"
