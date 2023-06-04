@@ -1,41 +1,42 @@
-.shapered {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    z-index: 1;
+.textContainer p {
+  font-size: 3vw;
+  line-height: 5vw;
+  font-weight: 400;
+  color: white;
 }
 
-.shapered svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 124px;
+.textContainer .secondary {
+  position: absolute;
+  top: 0;
+  color: #ee2400;
+  opacity: 0;
 }
 
-.shapered .shape-fill {
-    fill: #C40233;
+.textContainer {
+  transform-style: preserve-3d;
+  transition: transform 0.4s;
 }
 
-.shapeblack {
-    position: relative;
-    top: -200;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    z-index: 2;
+.textContainer p {
+  transition: all 0.4s;
+  margin-right: calc(15vw - 10%);
+  padding-right: calc(15vw - 10%);
 }
 
-.shapeblack svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 124px;
+.textContainer .secondary {
+  transform: rotateX(-90deg) translateY(2.4vw);
+  transform-origin: bottom center;
 }
 
-.shapeblack .shape-fill {
-    fill: #000;
+.textContainer:hover {
+  transform: rotateX(90deg);
+}
+
+.textContainer:hover .primary {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.textContainer:hover .secondary {
+  opacity: 1;
 }

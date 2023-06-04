@@ -19,7 +19,7 @@ const Me = () => {
           <div className="grid sm:grid-cols-2">
             <div className="flex flex-col justify-start pl-6">
               <h6
-                className="text-[#c40233] pb-4"
+                className="text-[#ee2400] pb-4 text-sm sm:text-xl"
                 data-aos="fade-in"
                 data-aos-duration="6000"
               >
@@ -30,9 +30,9 @@ const Me = () => {
                 data-aos="fade-in"
                 data-aos-duration="6000"
               >
-                A <span className="text-[#c40233]">tech enthusiast</span> who
+                A <span className="text-[#ee2400]">tech enthusiast</span> who
                 lives around tech and{" "}
-                <span className="text-[#c40233]">loves</span> to learn new
+                <span className="text-[#ee2400]">loves</span> to learn new
                 things
                 <br />
                 about tech.
@@ -43,7 +43,7 @@ const Me = () => {
                 data-aos="fade-in"
                 data-aos-duration="6000"
               >
-                An <span className="text-[#c40233]">avid gamer</span> who loves
+                An <span className="text-[#ee2400]">avid gamer</span> who loves
                 gaming.
               </p>
 
@@ -53,7 +53,7 @@ const Me = () => {
                 data-aos-duration="6000"
               >
                 But not as much as{" "}
-                <span className="text-[#c40233]">I love coding.</span> Learning
+                <span className="text-[#ee2400]">I love coding.</span> Learning
                 new languages and frameworks is my favourite passtime.
               </p>
 
@@ -62,8 +62,8 @@ const Me = () => {
                 data-aos="fade-in"
                 data-aos-duration="4000"
               >
-                <span className="text-[#c40233]">Challenges</span> intrigue me
-                more than my <span className="text-[#c40233]">coffee. </span>
+                <span className="text-[#ee2400]">Challenges</span> intrigue me
+                more than my <span className="text-[#ee2400]">coffee. </span>
                 Neither being expendable for me though.
               </p>
             </div>

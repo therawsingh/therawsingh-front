@@ -21,7 +21,7 @@ const Footer = () => {
         >
           <FaLinkedin
             size={30}
-            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+            className="m-2 hover:text-[#ee2400] hover:scale-110 transition-duration-1s"
           />
         </a>
         <a
@@ -31,7 +31,7 @@ const Footer = () => {
         >
           <FaGithubSquare
             size={30}
-            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+            className="m-2 hover:text-[#ee2400] hover:scale-110 transition-duration-1s"
           />
         </a>
         <a
@@ -41,16 +41,16 @@ const Footer = () => {
         >
           <FaInstagramSquare
             size={30}
-            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+            className="m-2 hover:text-[#ee2400] hover:scale-110 transition-duration-1s"
           />
         </a>
         <FaEnvelope
           size={30}
-          className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+          className="m-2 hover:text-[#ee2400] hover:scale-110 transition-duration-1s"
         />
         <FaWhatsapp
           size={30}
-          className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+          className="m-2 hover:text-[#ee2400] hover:scale-110 transition-duration-1s"
         />
         <a
           href={pdf}
@@ -60,7 +60,7 @@ const Footer = () => {
         >
           <FaDownload
             size={30}
-            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+            className="m-2 hover:text-[#ee2400] hover:scale-110 transition-duration-1s"
           />
         </a>
       </div>
