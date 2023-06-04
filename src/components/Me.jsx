@@ -3,12 +3,11 @@ import Selfie from "../assets/Selfie.jpg";
 import { Element } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "../style/otherstyles.css";
 
-const Me = () =>
-{
-  
+const Me = () => {
   useEffect(() => {
-    AOS.init({ });
+    AOS.init({});
   }, []);
 
   return (

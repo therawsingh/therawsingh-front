@@ -1,0 +1,41 @@
+.shapered {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1;
+}
+
+.shapered svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+}
+
+.shapered .shape-fill {
+    fill: #C40233;
+}
+
+.shapeblack {
+    position: relative;
+    top: -200;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 2;
+}
+
+.shapeblack svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+}
+
+.shapeblack .shape-fill {
+    fill: #000;
+}

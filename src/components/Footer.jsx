@@ -5,7 +5,7 @@ import {
   FaEnvelope,
   FaWhatsapp,
   FaLinkedin,
-  FaDownload
+  FaDownload,
 } from "react-icons/fa";
 
 import pdf from "../assets/Resume.pdf";
@@ -51,19 +51,6 @@ const Footer = () => {
             className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
           />
         </a>
-        <a
-          href={pdf}
-          download="Resume"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-tooltip-id="my-tooltip"
-          data-tooltip-content="Download Resume"
-        >
-          <FaDownload
-            size={30}
-            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
-          />
-        </a>
         <FaEnvelope
           size={30}
           className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
@@ -76,7 +63,20 @@ const Footer = () => {
           data-tooltip-id="my-tooltip"
           data-tooltip-content="+91 9820223936"
         />
-        <Tooltip id="my-tooltip" />
+        <a
+          href={pdf}
+          download="Roshan Singh Resume"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Download Resume"
+        >
+          <FaDownload
+            size={30}
+            className="m-2 hover:text-[#c40233] hover:scale-110 transition-duration-1s"
+          />
+        </a>
+        <Tooltip id="my-tooltip" className="" />
       </div>
     </div>
   );
