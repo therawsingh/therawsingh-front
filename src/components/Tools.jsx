@@ -1,19 +1,36 @@
 import React from "react";
 import Typed from "react-typed";
+import { Element } from "react-scroll";
 
 const Tools = () => {
   return (
-    <div className="w-full bg-white py-16 px-4">
-      <div className="max-w-[1240px] mx-auto md:grid sm:grid grid z-0">
-        <p className="text-[#f26860] font-bold p-4 md:text-3xl sm:text-2xl text-xl text-center">
-          Welcome to the tools page.
+    <div className="text-white font-josefin">
+      <Element name="top"></Element>
+      <div className="max-w-[1920px] sm:mt-[-200px] mt-[-290px] w-9/12 h-screen mx-auto text-left flex flex-col justify-center pl-8">
+        <p
+          className="text-[#ee2400] font-bold md:text-5xl sm:text-xl text-2xl pb-4"
+          data-aos="fade-right"
+          data-aos-duration="10000000"
+        >
+          Hello,
         </p>
-        <div className="flex justify-center items-center">
+        <h1
+          className="lg:text-7xl md:text-6xl sm:text-4xl text-xl font-bold pt-6 pb-10"
+          data-aos="fade-right"
+          data-aos-duration="10000000"
+        >
+          This is the backend section of the webite with multiple tools.
+        </h1>
+        <div
+          className="justify-center items-start"
+          data-aos="fade-right"
+          data-aos-duration="10000000"
+        >
           <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#f26860] py-8"
-            strings={["This page is under construction"]}
+            className="md:text-5xl sm:text-3xl text-xl font-bold text-[#ee2400]"
+            strings={["This page is currently under construction"]}
             typeSpeed={120}
-            backSpeed={140}
+            backSpeed={80}
             loop
           />
         </div>

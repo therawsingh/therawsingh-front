@@ -1,69 +1,34 @@
-import React, { useState } from "react";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import React, { useEffect } from "react";
+import { FaArrowCircleUp } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
 import { Link as LinkR } from "react-router-dom";
 
-const Navbar2 = () => {
-  const [nav, setNav] = useState(false);
-
-  const handleNav = () => {
-    setNav(!nav);
-  };
-
-  const navVisibility = () => {
-    {
-      nav
-        ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#0c0c0c] ease-in-out duration-500 z-50"
-        : "fixed left-[-100%]";
-    }
-  };
+const Navbar2 = () =>
+{
+  
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page on load
+  }, []);
+  
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] w-full mx-auto px-4 text-white bg-[#0c0c0c]">
-      <h1 className="w-full text-3xl font-bold text-[#c40233]">
-        <LinkR to="/">therawsingh</LinkR>
-      </h1>
-      <ul className="hidden md:flex py-10 my-4">
-        <li className="p-4 border border-transparent transition duration-300 hover:border-b-2 hover:cursor-pointer hover:border-b-[#c40233]">
-          <LinkR to="/">Home</LinkR>
-        </li>
-        <li className="p-4 border border-transparent transition duration-300 hover:border-t-2 hover:cursor-pointer hover:border-t-[#c40233]">
-          <LinkR to="/tools">Tools</LinkR>
-        </li>
-      </ul>
-      <div onClick={handleNav} className="block md:hidden hover:cursor-pointer">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-      </div>
-
-      <div
-        className={
-          nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#0c0c0c] ease-in-out duration-500"
-            : "fixed left-[-100%]"
-        }
-      >
-        <div className="grid-flow-col columns-2">
-          <h1 className="w-full text-3xl font-bold text-[#c40233] my-7 mx-4">
-            therawsingh
-          </h1>
-        </div>
-        <ul className="p-4">
-          <li className="p-4">
-            <LinkR
-              className="py-4 border-b hover:border-[#c40233] hover:cursor-pointer transition duration-300"
-              to="/"
-            >
-              Home
+    <div className="flex justify-end text-white font-josefin sticky top-0 sm:p-8 p-2 pt-4">
+      <div>
+        <ul className="py-10 justify-end flex flex-col sm:text-xl text-xs text-right">
+          <li className="pb-4 hover:cursor-pointer hover:text-[#ee2400]">
+            <LinkR to="/">
+              HOME
             </LinkR>
           </li>
-          <li className="p-4">
-            <LinkR
-              className="py-4 border-b hover:border-[#c40233] hover:cursor-pointer transition duration-300"
-              to="/tools"
-            >
-              Tools
-            </LinkR>
+          <li className="pb-4 hover:cursor-pointer hover:text-[#ee2400]">
+            <LinkR to="/tools">TOOLS</LinkR>
           </li>
         </ul>
+      </div>
+
+      <div className="fixed bottom-4 right-4">
+        <LinkS to="top" smooth={true} duration={500}>
+          <FaArrowCircleUp className="scale-[2] sm:m-4 hover:cursor-pointer hover:text-[#ee2400]"></FaArrowCircleUp>
+        </LinkS>
       </div>
     </div>
   );
