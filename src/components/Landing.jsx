@@ -16,14 +16,14 @@ const Landing = () => {
 
       <div className="max-w-[1920px] sm:mt-[-345px] mt-[-290px] w-9/12 h-screen mx-auto text-left flex flex-col justify-center pl-8">
         <p
-          className="text-[#c40233] font-bold md:text-5xl sm:text-3xl text-3xl pb-4"
+          className="text-[#c40233] font-bold md:text-5xl sm:text-xl text-2xl pb-4"
           data-aos="fade-right"
           data-aos-duration="10000000"
         >
           Hello,
         </p>
         <h1
-          className="lg:text-7xl md:text-6xl sm:text-4xl text-3xl font-bold pt-6 pb-10"
+          className="lg:text-7xl md:text-6xl sm:text-4xl text-xl font-bold pt-6 pb-10"
           data-aos="fade-right"
           data-aos-duration="10000000"
         >
@@ -35,7 +35,7 @@ const Landing = () => {
           data-aos-duration="10000000"
         >
           <Typed
-            className="md:text-5xl sm:text-3xl text-3xl font-bold text-[#c40233]"
+            className="md:text-5xl sm:text-3xl text-xl font-bold text-[#c40233]"
             strings={["Developer", "Gamer", "Photographer", "Writer"]}
             typeSpeed={120}
             backSpeed={140}

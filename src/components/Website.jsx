@@ -11,16 +11,16 @@ const Website = () => {
           <div className="grid">
             <div className="flex flex-col justify-start pl-6">
               <h6 className="text-[#c40233] pb-4">About the Website</h6>
-              <p className="text-white font-bold md:text-3xl sm:text-2xl text-2xl pb-10">
+              <p className="text-white font-bold md:text-3xl sm:text-2xl text-xl pb-10">
                 This website was made using ReactJS, leveraging its component based architecture. The styling was done using Tailwind CSS.
                 Various react libraries were used to achieve tasks like animations, scroll effect, parallax effects etc.
               </p>
 
-              <p className="text-white font-bold md:text-3xl sm:text-2xl text-2xl pb-10">
+              <p className="text-white font-bold md:text-3xl sm:text-2xl text-xl pb-10">
                 The backend was created primarily using Java, Spring, Spring Boot, Spring Rest, Hibernate, Spring Data JPA, SQL.
               </p>
               <Typed
-                className="text-white font-bold md:text-3xl sm:text-2xl text-2xl"
+                className="text-white font-bold md:text-3xl sm:text-2xl text-l"
                 strings={["(Backend part will be up and running soon)"]}
                 typeSpeed={50}
                 backSpeed={50}
