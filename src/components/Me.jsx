@@ -26,7 +26,7 @@ const Me = () => {
                 About Me
               </h6>
               <p
-                className="text-white font-bold md:text-3xl sm:text-2xl text-xl pb-10"
+                className="text-white md:text-3xl sm:text-2xl text-xl pb-10"
                 data-aos="fade-in"
                 data-aos-duration="6000"
               >
@@ -39,7 +39,7 @@ const Me = () => {
               </p>
 
               <p
-                className="text-white font-bold md:text-3xl sm:text-2xl text-xl pb-10"
+                className="text-white md:text-3xl sm:text-2xl text-xl pb-10"
                 data-aos="fade-in"
                 data-aos-duration="6000"
               >
@@ -48,7 +48,7 @@ const Me = () => {
               </p>
 
               <p
-                className="text-white font-bold md:text-3xl sm:text-2xl text-xl pb-10"
+                className="text-white md:text-3xl sm:text-2xl text-xl pb-10"
                 data-aos="fade-in"
                 data-aos-duration="6000"
               >
@@ -58,7 +58,7 @@ const Me = () => {
               </p>
 
               <p
-                className="text-white font-bold md:text-3xl sm:text-2xl text-xl"
+                className="text-white md:text-3xl sm:text-2xl text-xl"
                 data-aos="fade-in"
                 data-aos-duration="4000"
               >

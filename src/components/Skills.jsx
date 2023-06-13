@@ -13,13 +13,13 @@ const Skills = () => {
               <h6 className="text-[#ee2400] pb-4 text-sm sm:text-xl">
                 What I Do
               </h6>
-              <p className="text-white font-bold md:text-3xl sm:text-2xl text-xl pb-10">
+              <p className="text-white md:text-3xl sm:text-2xl text-xl pb-10">
                 I am a self-tought developer. With primary focus being on
                 backed. <br />
                 But I also extend my knowledge in fornt end department.
               </p>
 
-              <p className="text-white font-bold md:text-3xl sm:text-2xl text-xl pb-10">
+              <p className="text-white md:text-3xl sm:text-2xl text-xl pb-10">
                 Having industrial experience as an automation tester, I also
                 have hand-on experiene in testing.
               </p>

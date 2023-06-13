@@ -1,38 +1,39 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import { Element } from "react-scroll";
+import Currency from "../components/CurrencyCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import WeatherCard from "./WeatherCard";
+import UrlShortener from "./UrlShortener";
+import TimezoneCard from "./TimezoneCard";
+import ComingsoonCard from "./ComingsoonCard";
 
 const Tools = () => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
-    <div className="text-white font-josefin">
+    <div className="text-white font-josefin max-w-[1920px] sm:mt-[-80px] mt-[-30px] w-9/12 h-screen mx-auto pl-8">
       <Element name="top"></Element>
-      <div className="max-w-[1920px] sm:mt-[-200px] mt-[-290px] w-9/12 h-screen mx-auto text-left flex flex-col justify-center pl-8">
-        <p
-          className="text-[#ee2400] font-bold md:text-5xl sm:text-xl text-2xl pb-4"
-          data-aos="fade-right"
-          data-aos-duration="10000000"
-        >
-          Hello,
-        </p>
-        <h1
-          className="lg:text-7xl md:text-6xl sm:text-4xl text-xl font-bold pt-6 pb-10"
-          data-aos="fade-right"
-          data-aos-duration="10000000"
-        >
-          This is the backend section of the webite with multiple tools.
-        </h1>
-        <div
-          className="justify-center items-start"
-          data-aos="fade-right"
-          data-aos-duration="10000000"
-        >
-          <Typed
-            className="md:text-5xl sm:text-3xl text-xl font-bold text-[#ee2400]"
-            strings={["This page is currently under construction"]}
-            typeSpeed={120}
-            backSpeed={80}
-            loop
-          />
+      <h6 className="text-[#ee2400] pb-4 text-sm sm:text-xl">Tools</h6>
+      <p className="pb-10 md:text-3xl sm:text-2xl text-xl">
+        A set of tools created in the backend using <br /> Java Spring Boot,
+        Spring Rest, and Hibernate.
+      </p>
+      <div className="grid justify-center items-center md:grid-cols-3 gap-8">
+        <div className="w-full" data-aos="fade-right" data-aos-duration="800">
+          <Currency />
+        </div>
+        <div className="w-full" data-aos="fade-right" data-aos-duration="800">
+          <WeatherCard />
+        </div>
+        <div className="w-full" data-aos="fade-right" data-aos-duration="800">
+          <UrlShortener />
+        </div>
+        <div className="w-full" data-aos="fade-right" data-aos-duration="800">
+          <ComingsoonCard />
         </div>
       </div>
     </div>

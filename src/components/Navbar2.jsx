@@ -25,11 +25,6 @@ const Navbar2 = () =>
         </ul>
       </div>
 
-      <div className="fixed bottom-4 right-4">
-        <LinkS to="top" smooth={true} duration={500}>
-          <FaArrowCircleUp className="scale-[2] sm:m-4 hover:cursor-pointer hover:text-[#ee2400]"></FaArrowCircleUp>
-        </LinkS>
-      </div>
     </div>
   );
 };

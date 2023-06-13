@@ -11,14 +11,20 @@ const Experience = () => {
         <div className="max-w-[1920px] w-9/12 h-screen mx-auto text-left pr-10 flex items-center text-lg">
           <div className="pl-6">
             <h6 className="text-[#ee2400] pb-14 text-sm sm:text-xl">
-              Experience (Hover/Tap for more)
+              Experience{" "}
+              <span className="inline-flex items-center justify-center rounded-full border border-[#ee2400] bg-black px-3 py-1 text-xs sm:text-sm sm:font-medium text-slate-300 backdrop-blur-3xl">
+                <span className="">Hover/Tap Below </span>
+              </span>
             </h6>
             <div className="w-full">
               <Text3d
                 primary={"Capgemini"}
                 secondary={"Automation Tester Jan'22–Jul'22"}
               />
-              <Text3d primary={"Infosys"} secondary={"Automation Tester Oct'19–Jan'22"} />
+              <Text3d
+                primary={"Infosys"}
+                secondary={"Automation Tester Oct'19–Jan'22"}
+              />
               <Text3d
                 primary={"Backend Developer"}
                 secondary={"Self-Taught (Java)"}
