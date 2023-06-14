@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Element } from "react-scroll";
 import Typed from "react-typed";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const Skills = () => {
+const Skills = () =>
+{
+  
+    useEffect(() => {
+      AOS.init({ duration: 2000 });
+    }, []);
+
   return (
     <div>
       <Element name="skills"></Element>
@@ -14,22 +22,34 @@ const Skills = () => {
                 What I Do
               </h6>
               <p className="text-white md:text-3xl sm:text-2xl text-xl pb-10">
-                I am a self-tought developer. With primary focus being on
-                backed. <br />
-                But I also extend my knowledge in fornt end department.
+                I am a self-tought{" "}
+                <span className="text-[#ee2400]" data-aos="fade-right">
+                  backend developer
+                </span>
+                . Learning Java, Spring, Spring Boot, Hibernate, SQL. <br />I
+                also am expanding my knowledge in ReactJS, HTML, CSS, JavaScript
+                for{" "}
+                <span className="text-[#ee2400]" data-aos="fade-right">
+                  frontend.
+                </span>
               </p>
 
               <p className="text-white md:text-3xl sm:text-2xl text-xl pb-10">
-                Having industrial experience as an automation tester, I also
-                have hand-on experiene in testing.
+                Having industrial experience as an{" "}
+                <span className="text-[#ee2400]" data-aos="fade-right">
+                  automation tester
+                </span>
+                , I also have hands-on experiene in QA testing.
               </p>
-              <Typed
-                className="text-white font-bold md:text-3xl sm:text-2xl text-xl"
-                strings={["A complete package to hire ;)"]}
-                typeSpeed={120}
-                backSpeed={200}
-                loop
-              />
+              <div data-aos="fade-right">
+                <Typed
+                  className="text-white font-bold md:text-3xl sm:text-2xl text-xl"
+                  strings={["A complete package ;)"]}
+                  typeSpeed={120}
+                  backSpeed={200}
+                  loop
+                />
+              </div>
             </div>
           </div>
         </div>

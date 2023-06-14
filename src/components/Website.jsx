@@ -1,8 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { Element } from "react-scroll";
-import Typed from "react-typed";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const Website = () => {
+const Website = () =>
+{
+  
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
 
   return (
     <div>
@@ -15,23 +21,21 @@ const Website = () => {
                 About the Website
               </h6>
               <p className="text-white md:text-3xl sm:text-2xl text-xl pb-10">
-                This website was made using ReactJS, leveraging its component
-                based architecture. The styling was done using Tailwind CSS.
-                Various react libraries were used to achieve tasks like
-                animations, scroll effect, parallax effects etc.
+                The backend of this website was created primarily using{" "}
+                <span className="text-white" data-aos="fade-right">
+                  Java, Spring Boot, Spring Rest, Hibernate, Spring Data JPA,
+                  SQL.
+                </span>
               </p>
 
               <p className="text-white md:text-3xl sm:text-2xl text-xl pb-10">
-                The backend was created primarily using Java, Spring, Spring
-                Boot, Spring Rest, Hibernate, Spring Data JPA, SQL.
+                And the frontend using{" "}
+                <span data-aos="fade-right">
+                  ReactJS, leveraging its component based architecture. The
+                  styling was done using Tailwind CSS, and various react
+                  libraries.
+                </span>
               </p>
-              <Typed
-                className="text-white font-bold md:text-3xl sm:text-2xl text-l"
-                strings={["(Backend part will be up and running soon)"]}
-                typeSpeed={50}
-                backSpeed={50}
-                loop
-              />
             </div>
           </div>
         </div>

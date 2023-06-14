@@ -411,7 +411,7 @@ const CurrencyCard = () => {
             </select>
           </div>
 
-          <h2 className=" text-center pb-2 pt-2 text-white">Value</h2>
+          <h2 className=" text-center pb-2 pt-2 text-white">Amount</h2>
           <input
             className="Input text-black text-center w-full appearance-none"
             type="number"
@@ -421,7 +421,7 @@ const CurrencyCard = () => {
             placeholder="Enter Amount"
           />
 
-          <h2 className=" text-center pb-2 pt-2 text-white">Converted Value</h2>
+          <h2 className=" text-center pb-2 pt-2 text-white">Converted Amount</h2>
           <input
             className="Input text-black text-center w-full"
             type="number"

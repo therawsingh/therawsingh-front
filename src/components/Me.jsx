@@ -7,7 +7,7 @@ import "../style/otherstyles.css";
 
 const Me = () => {
   useEffect(() => {
-    AOS.init({});
+    AOS.init({ duration: 2000 });
   }, []);
 
   return (
@@ -30,8 +30,8 @@ const Me = () => {
                 data-aos="fade-in"
                 data-aos-duration="6000"
               >
-                A <span className="text-[#ee2400]">tech enthusiast</span> who
-                lives around tech and{" "}
+                I am a <span className="text-[#ee2400]">tech enthusiast</span> who
+                loves being surrounded by tech and{" "}
                 <span className="text-[#ee2400]">loves</span> to learn new
                 things
                 <br />
@@ -43,8 +43,7 @@ const Me = () => {
                 data-aos="fade-in"
                 data-aos-duration="6000"
               >
-                An <span className="text-[#ee2400]">avid gamer</span> who loves
-                gaming.
+                A <span className="text-[#ee2400]">hardcore gamer</span> with deep love for gaming.
               </p>
 
               <p
@@ -54,7 +53,7 @@ const Me = () => {
               >
                 But not as much as{" "}
                 <span className="text-[#ee2400]">I love coding.</span> Learning
-                new languages and frameworks is my favourite passtime.
+                new languages and frameworks is my favourite pass-time.
               </p>
 
               <p
@@ -62,7 +61,7 @@ const Me = () => {
                 data-aos="fade-in"
                 data-aos-duration="4000"
               >
-                <span className="text-[#ee2400]">Challenges</span> intrigue me
+                <span className="text-[#ee2400]">Challenges</span> intrigue him
                 more than my <span className="text-[#ee2400]">coffee. </span>
                 Neither being expendable for me though.
               </p>

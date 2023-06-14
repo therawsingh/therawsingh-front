@@ -1,8 +1,15 @@
-import React, { useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { Element } from "react-scroll";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const Experience = () => {
-  const plane = useRef(null);
+const Experience = () =>
+{
+  
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
 
   return (
     <div>
@@ -16,7 +23,7 @@ const Experience = () => {
                 <span className="">Hover/Tap Below </span>
               </span>
             </h6>
-            <div className="w-full">
+            <div className="w-full" data-aos="flip-up">
               <Text3d
                 primary={"Capgemini"}
                 secondary={"Automation Tester Jan'22–Jul'22"}
