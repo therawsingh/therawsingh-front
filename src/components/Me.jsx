@@ -53,7 +53,7 @@ const Me = () => {
               >
                 But not as much as{" "}
                 <span className="text-[#ee2400]">I love coding.</span> Learning
-                new languages and frameworks is my favourite pass-time.
+                new languages (spoken or programming) and frameworks is my favourite pass-time.
               </p>
 
               <p

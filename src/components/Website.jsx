@@ -21,8 +21,12 @@ const Website = () =>
                 About the Website
               </h6>
               <p className="text-white md:text-3xl sm:text-2xl text-xl pb-10">
+                This is my portfolio website, containing details about me and
+                some utility tools. It is fully responsive website.
+              </p>
+              <p className="text-white md:text-3xl sm:text-2xl text-xl pb-10">
                 The backend of this website was created primarily using{" "}
-                <span className="text-white" data-aos="fade-right">
+                <span className="text-[#ee2400]" data-aos="fade-right">
                   Java, Spring Boot, Spring Rest, Hibernate, Spring Data JPA,
                   SQL.
                 </span>
@@ -30,7 +34,7 @@ const Website = () =>
 
               <p className="text-white md:text-3xl sm:text-2xl text-xl pb-10">
                 And the frontend using{" "}
-                <span data-aos="fade-right">
+                <span className="text-[#ee2400]" data-aos="fade-right">
                   ReactJS, leveraging its component based architecture. The
                   styling was done using Tailwind CSS, and various react
                   libraries.
